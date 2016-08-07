@@ -17,6 +17,9 @@ while guessesTaken < 6:
 
     guessesTaken = guessesTaken + 1
 
+    if myName == 'Milo':
+        number = guess;
+
     if guess < number:
         print('Your guess is too low.')
 
